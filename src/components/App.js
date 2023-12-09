@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import FlashcardList from "./FlashcardList";
 import "./App.css";
-// import axios from "axios";
+import Header from "./Header";
 
 function App() {
   const [flashcards] = useState(SAMPLE_FLASHCARDS);
 
   return (
-    <div className="container">
-      <FlashcardList flashcards={flashcards} />
-    </div>
+    <>
+      <Header />
+      <div className="container">
+        <FlashcardList flashcards={flashcards} />
+      </div>
+    </>
   );
 }
 
