@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-export default function Flashcard({ flashcard }) {
+export default function Flashcard(props) {
   const [flip, setFlip] = useState(false);
   const [height, setHeight] = useState("initial");
 
@@ -13,7 +13,7 @@ export default function Flashcard({ flashcard }) {
     setHeight(Math.max(frontHeight, backHeight, 100));
   }
 
-  useEffect(setMaxHeight, [flashcard.question, flashcard.answer]);
+  useEffect(setMaxHeight, [props.flashcard.question, props.flashcard.answer]);
   useEffect(() => {
     window.addEventListener("resize", setMaxHeight);
     return () => window.removeEventListener("resize", setMaxHeight);
@@ -26,10 +26,10 @@ export default function Flashcard({ flashcard }) {
       onClick={() => setFlip(!flip)}
     >
       <div className="front" ref={frontEl}>
-        {flashcard.question}
+        {props.flashcard.question}
       </div>
       <div className="back" ref={backEl}>
-        {flashcard.answer}
+        {props.flashcard.answer}
       </div>
     </div>
   );

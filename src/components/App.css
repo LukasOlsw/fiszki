@@ -24,9 +24,6 @@ body {
   flex-direction: row;
 }
 
-.cardList{
-
-}
 
 .card {
   display: flex;
