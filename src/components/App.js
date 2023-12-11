@@ -263,7 +263,7 @@ const SAMPLE_FLASHCARDS = [
     id: 42,
     question: "42.Czym według Ciebie jest aplikacja internetowa?",
     answer:
-      "to aplikacja uruchamiana w przeglądarce, która przez dostarczony interfejs ma dostarczać użytkownikowi jakąś konkretną usługę. Treść pochodzi ze strony: www.empressia.pl. Nasze treści monitorujemy na bieżąco, dlatego nie kopiuj ich bez naszej zgody, ponieważ to prawnie zabronione.",
+      "to aplikacja uruchamiana w przeglądarce, która przez dostarczony interfejs ma dostarczać użytkownikowi jakąś konkretną usługę.",
   },
   {
     id: 43,
