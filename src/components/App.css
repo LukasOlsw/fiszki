@@ -4,11 +4,13 @@ body {
 }
 
 .container {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
+  /* position: relative; */
+  /* left: 50%; */
+  /* transform: translate(-50%); */
   max-width: 900px;
   margin: 1rem 2rem;
+  display: block;
+  margin: 20px auto;
 }
 
 
