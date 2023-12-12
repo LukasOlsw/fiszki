@@ -1,22 +1,41 @@
 import React, { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FlashcardList from "./FlashcardList";
 import "./App.css";
 import Header from "./Header";
+import List from "./List";
+// import Main from "./Main";
 
 function App() {
-  const [flashcards] = useState(SAMPLE_FLASHCARDS);
+  const [flashcardsQA] = useState(QA_FLASHCARDS);
+  const [flashcardsANGBS] = useState(ANGBS_FLASHCARDS);
 
   return (
     <>
-      <Header />
-      <div className="container">
-        <FlashcardList flashcards={flashcards} />
-      </div>
+      <BrowserRouter>
+        <Header />
+        <div className="container">
+          <Routes>
+            {/* <Route path="/" element={<Main flashcardsList={flashcardsArr} />} /> */}
+            <Route path="/" element={<List />} />
+            <Route
+              path="/qa"
+              element={<FlashcardList flashcards={flashcardsQA} />}
+            />
+
+            <Route
+              path="/angbasics"
+              element={<FlashcardList flashcards={flashcardsANGBS} />}
+            />
+          </Routes>
+        </div>
+      </BrowserRouter>
     </>
   );
 }
 
-const SAMPLE_FLASHCARDS = [
+// const flashcardsList = ["quality assurance", "Ang Basics"];
+const QA_FLASHCARDS = [
   {
     id: 1,
     question: "1.Jak prawidłowo opisać błąd?",
@@ -500,6 +519,58 @@ const SAMPLE_FLASHCARDS = [
     question: "81.Co może zawierać raport z testów",
     answer:
       "-id,tytuł,autor -cel -Nazwa i wersja systemu -> określenie obiektu testów -Kilka zdań ogólnego podsumowania -Odstępstwa od założonego planu i ich przyczyny -Wyniki testów i metryki -> planowane/wyknoane, zaliczone/niezaliczone/zablokowane, liczba defektów z priorytetami, dystrybucja defektów(gdzie i ile), lista otwartych defektów. -Podsumowanie aktywności-> czas wykonania, daty startu i końca, koszty,zasoby -Ocena kryteriów wejścia i wyjścia -Wnioski na przyszłość",
+  },
+];
+const ANGBS_FLASHCARDS = [
+  {
+    id: 1,
+    question: "(1)1.co robiłeś wczoraj o 8 wieczorem?",
+    answer: "-What were you doing at 8 last night?",
+  },
+  {
+    id: 2,
+    question: "(1)2.Mogę otworzyć okno?",
+    answer: "-Shall I open the window?",
+  },
+  {
+    id: 3,
+    question: "(1)3.Już widziałem ten film.",
+    answer: "-I have already seen this film.",
+  },
+  {
+    id: 4,
+    question: "(1)4.Co zamierzasz robić dzis wieczorem?",
+    answer: "-What are you going to do tonight?",
+  },
+  {
+    id: 5,
+    question: "(1)5.Jechałem szybko kiedy zatrzymała mnie policja.",
+    answer: "-I was driving fast when the police stopped me.",
+  },
+  {
+    id: 6,
+    question: "(1)6.Z kim pojechałeś na wakacje?",
+    answer: "-Who did you go on holiday with?",
+  },
+  {
+    id: 7,
+    question: "(1)7.Jadę pod namiot w lipcu.",
+    answer: "-I'm going camping in July.",
+  },
+  {
+    id: 8,
+    question: "(1)8.Czy skończyłeś już pracę domową?",
+    answer: "-Have you finished your homework yet?",
+  },
+  {
+    id: 9,
+    question: "(1)9.Pośpiesz się spóźnisz się.",
+    answer: "-Hurry up! You're going to be late!",
+  },
+  {
+    id: 10,
+    question: "(1)10.Pomogę ci z twoim bagażem.",
+    answer: "-I'll help you with your luggage.",
   },
 ];
 

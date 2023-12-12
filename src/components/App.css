@@ -1,12 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 body {
   background-color: #353535;
   margin: 0;
 }
 
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: lightblue;
+  font-size: 20px;
+  }
+
+  
+  .header a{
+    margin-left: 20vh;
+    display: flex;
+    color: black;
+    text-decoration: none;
+  }
+
+  .header p{
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .header a:nth-child(2){
+    margin-right: 20vh;
+    margin-left: 5px;
+  }
+
+  .header button{
+    padding: 10px 20px;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .header button:hover{
+    background-color: gray;
+  }
+
+  @media (min-width: 250px) and (orientation: portrait) {
+    .header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* justify-content:space-between;
+      align-items: center;
+      background-color: lightblue;
+      font-size: 20px; */
+    }
+    .header a{
+      margin-left: 0vh;
+    }
+
+    .header a:nth-child(2){
+      margin-right: 0vh;
+      margin-left: 0px;
+      margin-bottom: 5px;
+      transform: translateY(-15px);
+    }
+  }
+
 .container {
-  /* position: relative; */
-  /* left: 50%; */
-  /* transform: translate(-50%); */
   max-width: 900px;
   margin: 1rem 2rem;
   display: block;
@@ -40,7 +101,7 @@ body {
   transition: 300ms;
   cursor: pointer;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0)); 
-margin: 10px 10px;
+  margin: 10px 10px;
 }
 
 .card:hover {
@@ -75,3 +136,29 @@ margin: 10px 10px;
 /* .flashcard-option:first-child {
   margin-top: 0;
 } */
+
+.wrapper{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.box{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(185, 185, 97);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+
+.box button{
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
