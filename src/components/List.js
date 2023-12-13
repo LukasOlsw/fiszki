@@ -18,7 +18,7 @@ const Main = () => {
       </div>
 
       <div className="box">
-        <span>Test</span>
+        <span>Test ..........</span>
         <Link to="/">{/* <button>Przejdź</button> */}</Link>
       </div>
 
