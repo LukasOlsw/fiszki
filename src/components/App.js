@@ -572,6 +572,208 @@ const ANGBS_FLASHCARDS = [
     question: "(1)10.Pomogę ci z twoim bagażem.",
     answer: "-I'll help you with your luggage.",
   },
+  {
+    id: 11,
+    question: "(2)1.Nie musisz odkurzać dywanu.",
+    answer: "-You don't have to vacuum the carpet.",
+  },
+  {
+    id: 12,
+    question: "(2)2.Gdybym miał duzo pieniędzy, kupiłbym nowy samochód.",
+    answer: "-If I had a lot of money, I would buy a new car.",
+  },
+  {
+    id: 13,
+    question: "(2)3.Nie wolno ci się spóźnić do pracy.",
+    answer: "-You mustn't be late for work.",
+  },
+  {
+    id: 14,
+    question: "(2)4.Jeśli teraz nie wyjdziemy, spóźnimy się na autobus.",
+    answer: "-If we don't leave now, we will miss the bus.",
+  },
+  {
+    id: 15,
+    question: "(2)5.Na twoim miejscu przeprowadziłbym się do Madrytu.",
+    answer: "-If I were you, I would move to Madrid.",
+  },
+  {
+    id: 16,
+    question: "(2)6.Myślę o kupieniu nowego domu.",
+    answer: "-I'm thinking of buying a new house.",
+  },
+  {
+    id: 17,
+    question: "(2)7.Czy ona była w Nowym Jorku?",
+    answer: "-Has she been to New York?",
+  },
+  {
+    id: 18,
+    question: "(2)8.On wyjął portfel ze swojej kieszeni.",
+    answer: "-He took a wallet out of his pocket.",
+  },
+  {
+    id: 19,
+    question: "(2)9.On pojechał do Paryża. Wróci w poniedziałek.",
+    answer: "-He's gone to Paris. He will be back on Monday.",
+  },
+  {
+    id: 20,
+    question: "(2)10.Pomógłbym ci, gdybym miał czas.",
+    answer: "-I will help you if I have time.",
+  },
+  {
+    id: 21,
+    question: "(3)1.Jak długo jesteś żonaty?",
+    answer: "-How long have you been married?",
+  },
+  {
+    id: 22,
+    question: "(3)2.Powiedziała, że do mnie zadzwoni.",
+    answer: "-She said that she would phone me.",
+  },
+  {
+    id: 23,
+    question: "(3)3.Jej ubrania zostały zaprojektowane przez Channel.",
+    answer: "-Her clothes were designed by Channel.",
+  },
+  {
+    id: 24,
+    question: "(3)4.Nie jem wystarczająco dużo warzyw.",
+    answer: "-I don't eat enough vegetables.",
+  },
+  {
+    id: 25,
+    question: "(3)5.Tom wyszedł zanim przyszła Jane.",
+    answer: "-Tom had left when Jane arrived.",
+  },
+  {
+    id: 26,
+    question: "(3)6.Oni mieszkają tu od 5 lat.",
+    answer: "-They have lived here for 5 years.",
+  },
+  {
+    id: 27,
+    question:
+      "(3)7.Nie poznałem mojej byłej dziewczyny, ponieważ dużo schudła.",
+    answer:
+      "-I didn't recognize my ex-girlfriend because she had lost a lot of weight.",
+  },
+  {
+    id: 28,
+    question: "(3)8.Ten obraz został namalowany przez Picassa.",
+    answer: "-This picture was painted by Picasso.",
+  },
+  {
+    id: 29,
+    question: "(3)9.Powinieneś przestać paclić.",
+    answer: "-You should stop smoking.",
+  },
+  {
+    id: 30,
+    question: "(3)10.On zna swoją dziewczynę od czerwca.",
+    answer: "-He has known his girlfriend since June.",
+  },
+  {
+    id: 31,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 32,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 33,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 34,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 35,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 36,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 37,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 38,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 39,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 40,
+    question: "(4)",
+    answer: "",
+  },
+  {
+    id: 41,
+    question: "(5)",
+    answer: "",
+  },
+  {
+    id: 42,
+    question: "(5)",
+    answer: "",
+  },
+  {
+    id: 43,
+    question: "(5)",
+    answer: "",
+  },
+  {
+    id: 44,
+    question: "(5)",
+    answer: "",
+  },
+  {
+    id: 45,
+    question: "(5)",
+    answer: "",
+  },
+  {
+    id: 46,
+    question: "(5)",
+    answer: "",
+  },
+  {
+    id: 47,
+    question: "(5)",
+    answer: "",
+  },
+  {
+    id: 48,
+    question: "(5)",
+    answer: "",
+  },
+  {
+    id: 49,
+    question: "(5)",
+    answer: "",
+  },
+  {
+    id: 50,
+    question: "(5)",
+    answer: "",
+  },
 ];
 
 export default App;
