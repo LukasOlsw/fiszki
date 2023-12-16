@@ -775,6 +775,61 @@ const ANGBS_FLASHCARDS = [
     question: "(5)10.Pośpiesz się! Spóźnisz się!",
     answer: "-Hurry up! You're going to be late!",
   },
+  {
+    id: 51,
+    question: "(6)1.Wolałbym zostać w domu.",
+    answer: "-I'd rather stay at home.",
+  },
+  {
+    id: 52,
+    question: "(6)2.Gdybym znał odpowiedź, to bym jej nie pytał.",
+    answer: "-If I had known the answer, I wouldn't have asked her.",
+  },
+  {
+    id: 53,
+    question: "(6)3.Ale znakomity występ!",
+    answer: "-What a brilliant performance!",
+  },
+  {
+    id: 54,
+    question: "(6)4.Nie miałbym nic przeciwko zamieszkaniu w Hiszpanii.",
+    answer: "-I wouldn't mind living in Spain",
+  },
+  {
+    id: 55,
+    question:
+      "(6)5.Kiedy dostarłem na lotnisko zdałem sobie sprawę, że zostawiłem mój paszport w domu.",
+    answer:
+      "-When I got to the airport, I realized I had left my passport at home.",
+  },
+  {
+    id: 56,
+    question:
+      "(6)6.Nie miałem wystarczająco dużo czasu, żeby spakować moją walizkę.",
+    answer: "- I didn't have enough time to pack my suitcase.",
+  },
+  {
+    id: 57,
+    question:
+      "(6)7.Zanim przyjechałem na stację kolejową, pociąg juz odjechał.",
+    answer:
+      "-By the time I got to the railway station, the train had already left.",
+  },
+  {
+    id: 58,
+    question: "(6)8.Zima to najlepszy czas, żeby pojechać na narty.",
+    answer: "--Winter is the best time to go skiing.",
+  },
+  {
+    id: 59,
+    question: "(6)9.Telefony komórkowe nie są dozwolone w teatrze.",
+    answer: "-Mobile phones are not allowed at the theatre.",
+  },
+  {
+    id: 60,
+    question: "(6)10.Czekam na ciebie już pól godziny",
+    answer: "-I have been waiting for you for half an hour now.",
+  },
 ];
 
 export default App;
