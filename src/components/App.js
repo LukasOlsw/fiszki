@@ -830,6 +830,59 @@ const ANGBS_FLASHCARDS = [
     question: "(6)10.Czekam na ciebie już pól godziny",
     answer: "-I have been waiting for you for half an hour now.",
   },
+  {
+    id: 61,
+    question: "(7)1.W końcu mam swój własny komputer.",
+    answer: "-I have got my own computer at last.",
+  },
+  {
+    id: 62,
+    question:
+      "(7)2.Becky była jedyną osobą w klasie, która znała prawidłową odpowiedź.",
+    answer:
+      "-Becky was the only person in the class who knew the correct answer.",
+  },
+  {
+    id: 63,
+    question: "(7)3.Chciałbym zwrócić te buty.",
+    answer: "-I'd like to return these shoes.",
+  },
+  {
+    id: 64,
+    question: "(7)4.Lubimy podróżować samolotem.",
+    answer: "-We like travelling by plane.",
+  },
+  {
+    id: 65,
+    question: "(7)5.Czy warto zwiedzić muzeum Brytyjskie?",
+    answer: "-Is the British Museum worth visiting?",
+  },
+  {
+    id: 66,
+    question:
+      "(7)6.Jakie jest najbardziej niebezpieczne miejsce, w którym byłeś?",
+    answer: "-What's the most dangerous place you have ever been to?",
+  },
+  {
+    id: 67,
+    question: "(7)7.Chciałbym kupić mieszkanie w Holandii.",
+    answer: "-I'd like to buy a flat in the Netherlands.",
+  },
+  {
+    id: 68,
+    question: "(7)8.Doceniliśmy ich gościnność, gdy zaprosili nas na kolację.",
+    answer: "-We appreciated their hospitality when they invited us to dinner.",
+  },
+  {
+    id: 69,
+    question: "(7)9.Nasz plan nie ma sensu.",
+    answer: "-Our plan doesn't make sense.",
+  },
+  {
+    id: 70,
+    question: "(7)10.Zatrzymamy się w pensjonacie czy hotelu?",
+    answer: "-Shall we stay at a guest house or at a hotel?",
+  },
 ];
 
 export default App;
