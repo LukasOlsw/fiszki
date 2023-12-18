@@ -885,4 +885,12 @@ const ANGBS_FLASHCARDS = [
   },
 ];
 
+const ERP_FLASHCARDS = [
+  {
+    id: "",
+    question: "",
+    answer: "",
+  },
+];
+
 export default App;
