@@ -18,8 +18,10 @@ const Main = () => {
       </div>
 
       <div className="box">
-        <span>Test ..........</span>
-        <Link to="/">{/* <button>Przejdź</button> */}</Link>
+        <span>Systemy ERP</span>
+        <Link to="/erp">
+          <button>Przejdź</button>
+        </Link>
       </div>
 
       <div className="box">

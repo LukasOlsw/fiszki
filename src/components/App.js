@@ -9,6 +9,7 @@ import List from "./List";
 function App() {
   const [flashcardsQA] = useState(QA_FLASHCARDS);
   const [flashcardsANGBS] = useState(ANGBS_FLASHCARDS);
+  const [flashcardsERP] = useState(ERP_FLASHCARDS);
 
   return (
     <>
@@ -26,6 +27,11 @@ function App() {
             <Route
               path="/angbasics"
               element={<FlashcardList flashcards={flashcardsANGBS} />}
+            />
+
+            <Route
+              path="/erp"
+              element={<FlashcardList flashcards={flashcardsERP} />}
             />
           </Routes>
         </div>
@@ -887,9 +893,39 @@ const ANGBS_FLASHCARDS = [
 
 const ERP_FLASHCARDS = [
   {
-    id: "",
-    question: "",
-    answer: "",
+    id: 1,
+    question: "1.ERP",
+    answer:
+      "System ERP (z ang. Enterprise Resources Planning) to oprogramowanie do kompleksowego zarządzania przedsiębiorstwem. Kryjące się w skrócie ERP „planowanie zasobów” obejmuje kontrolę i zarządzanie najważniejszymi zasobami i procesami w niemal każdym obszarze biznesowym firmy: sprzedaż, finanse, księgowość, magazyn, kadry, zaopatrzenie, produkcja itd.",
+  },
+  {
+    id: 2,
+    question: "2.System ERP - jego główne obszary biznesowe",
+    answer: "[-Finanse i raportowaniem] [-Sprzedaż] [-Produkcja] [-HR i Admin]",
+  },
+  {
+    id: 3,
+    question: "3.Finanse i raportowanie",
+    answer:
+      "[Business Inteligence] [Księgowość i podatki] [E-sprawozdania] [Integracja z bankami]",
+  },
+  {
+    id: 4,
+    question: "4.Sprzedaż",
+    answer:
+      "[Sprzedaż internetowa] [Magazyn] [POS i obsługa klienta] [Sprzedaż tradycyjna] [Wysyłka]",
+  },
+  {
+    id: 5,
+    question: "5.Produkcja",
+    answer:
+      "[Asset Tracking] [MES] [Kontrola jakości] [Planowanie APS] [Program zarządzania produkcją]",
+  },
+  {
+    id: 6,
+    question: "6.HR i Admin",
+    answer:
+      "[Czas pracy RCP] [Obieg spraw i dokumentów] [Płace i składki] [HRM] [Wielofirmowość]",
   },
 ];
 
