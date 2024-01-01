@@ -25,6 +25,13 @@ const Main = () => {
       </div>
 
       <div className="box">
+        <span>Quality Assurance GPT</span>
+        <Link to="/qagpt">
+          <button>Przejdź</button>
+        </Link>
+      </div>
+
+      <div className="box">
         <span>Test Test test test test test</span>
         <Link to="/">{/* <button>Przejdź</button> */}</Link>
       </div>
