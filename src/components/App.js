@@ -946,7 +946,7 @@ const QAGPT_FLASHCARDS = [
     id: 2,
     question: "2.Dlaczego testujemy?",
     answer:
-      "Testujemy oprogramowanie, aby sprawdzić, czy jest ono zgodne z założeniami biznesowymi, czy spełnia wymagania użytkownika oraz czy nie zawiera błędów.",
+      "Testujemy oprogramowanie, aby sprawdzić, czy jest ono zgodne z założeniami biznesowymi, czy spełnia wymagania użytkownika oraz czy nie zawiera błędów.  Główne powody, dla których testujemy oprogramowanie: 1.Zidentyfikowanie błędów (defektów), 2.Zapewnienie jakości produktu, 3.Zwiększenie niezawodności, 4.Optymalizacja wydajności, 5.Zabezpieczenie przed utratą danych, 6.Zgodność z wymaganiami, 7.Zminimalizowanie kosztów naprawy, 8.Zwiększenie zaufania użytkowników",
   },
   {
     id: 3,
@@ -964,12 +964,13 @@ const QAGPT_FLASHCARDS = [
     id: 5,
     question: "5.Co zrobisz gdy programista mówi, że u niego wszystko działa?",
     answer:
-      "Sprawdźmy, czy oboje macie tę samą wersję aplikacji testowej, jaka była data testów, a jaka data update’ów, pokaż live programiście, gdzie znalazłeś(-as) błąd i jakie kroki wykonałeś(-aś) do momentu znalezienia błędu.",
+      "istnieje kilka kroków, które możesz podjąć, aby lepiej zrozumieć sytuację i efektywnie rozwiązać problem: 1.Zweryfikuj warunki testowe, 2.Zadaj pytania, 3.Przeprowadź testy na różnych środowiskach, 4.Sprawdź logi i raporty o błędach, 5.Współpracuj z programistą, 6.Ustal wspólny scenariusz testowy, 7.Przemyśl konfigurację i ustawienia, 8.Wykorzystaj narzędzia do debugowania, 9.Zaangażuj zespół QA i programistów",
   },
   {
     id: 6,
     question: "Jak przetestujesz słuchawki bezprzewodowe?",
-    answer: "???",
+    answer:
+      "1.Jakość dzwięku, 2.Łączność bezprzewodowa, 3.Trwałość baterii, 4.Ergonomia i komfort, 5.Sterowanie i funkcje dodatkowe, 6.Testy mikrofonu, 7.Wydajność na różnych urządzeniach, 8.Aktualzacje oprogramowania, 9.Ocena jakości wykonania ",
   },
   {
     id: 7,
@@ -981,7 +982,7 @@ const QAGPT_FLASHCARDS = [
     id: 8,
     question: "8.Co otrzymamy dzięki zautomatyzowaniu wszystkich testów?",
     answer:
-      "Testy automatyczne pozwalają na oszczędzenie czasu. Wykonują się szybciej niż w przypadku ich ręcznego przechodzenia przez testera manualnego. Warto automatyzować testy, które są powtarzalne i należy często je wykonywać, np. testy regresji i smoke testy. Warto również automatyzować testy, które są trudne i pracochłonne przy manualnym wykonaniu, np. testy z wieloma zbiorami danych.",
+      "1.Szybkość i skuteczność, 2.Powtarzalność, 3.Wczesne wykrywanie błędów, 4.Zwiększenie pokrycia testów, 5.Skalowalność, 6.Oszczędność kosztów, 7.Dokładne raportowanie, 8.Ułatwiona kontynuacja integracji i dostarcania CI/CD, 9.Zwiększone zaufanie do produktu, 10.Poprawa produktywności",
   },
   {
     id: 9,
@@ -999,7 +1000,7 @@ const QAGPT_FLASHCARDS = [
     id: 11,
     question: "11.Jak przebiega cykl życia błędu?",
     answer:
-      "1.Nowy błąd. 2.Przydzielony[Odroczony,odrzucony,powielony(powtórka)]-> błąd zostaje przydzielony osobie, która będzie się nim zajmować. 3.Otwarty -> [Analiza]. 4.Development. 5.Code review. 6.Przekazanie do retestów. 7.Retesty->[Ponowne otwarcie]. 8.Gotowe",
+      "1.Zgłoszenie błędu (defektu), 2.Dokładne zgłoszenie błędu, 3.Przypisanie priorytetu i ważności, 4.Weryfikacja błędu przez zespół QA, 5.Przypisanie do programisty, 6.Analiza i naprawa błędu przez programistę, 7.Testowanie po naprawie, 8.Akceptacja i zamknięcie, 9.Generowanie raportów",
   },
   {
     id: 12,
@@ -1058,7 +1059,7 @@ const QAGPT_FLASHCARDS = [
     id: 21,
     question: "21.Co to są smoke testy?",
     answer:
-      "-Smoke test -> Sprawdzamy najważniejszą fukncjonalność, jeżeli nie działą, nie sprawdzamy dalej",
+      "Smoke testy, znane również jako sanity testy lub build verification testy (BVT), to rodzaj szybkich, podstawowych testów wykonanych na oprogramowaniu, aby zweryfikować, czy główne funkcje są dostępne i czy aplikacja działa poprawnie po najnowszych zmianach w kodzie.",
   },
   {
     id: 22,
