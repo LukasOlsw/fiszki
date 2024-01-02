@@ -1065,13 +1065,13 @@ const QAGPT_FLASHCARDS = [
     id: 22,
     question: "22.Czym są sanity testy?",
     answer:
-      "Test kondycji wykonywany jest po wprowadzeniu poprawek i aktualizacji oprogramowania. Dzięki nim możliwe jest upewnienie się, że wcześniejsze błędy zostały naprawione i nie pojawiają się żadne dalsze problemy spowodowane wprowadzonymi zmianami.",
+      "Smoke testy, znane również jako sanity testy lub build verification testy (BVT), to rodzaj szybkich, podstawowych testów wykonanych na oprogramowaniu, aby zweryfikować, czy główne funkcje są dostępne i czy aplikacja działa poprawnie po najnowszych zmianach w kodzie.",
   },
   {
     id: 23,
     question: "23.Czym jest testowanie eksploracyjne?",
     answer:
-      "Testowanie eksploracyjne to praktyczne podejście, w którym testerzy są zaangażowani w minimalne planowanie i maksymalne wykonanie testów.",
+      "Testowanie eksploracyjne to metoda testowania oprogramowania, w której testerzy eksplorują i badają aplikację w poszukiwaniu błędów, bez wcześniej ustalonych, dokładnych scenariuszy testowych.",
   },
   {
     id: 24,
@@ -1101,25 +1101,26 @@ const QAGPT_FLASHCARDS = [
     id: 28,
     question: "28.Czym jest plan testów i co powinien zawierać?",
     answer:
-      "Obejmuje: -identyfikowanie wymagań, -czynników ryzyka, -przypadków testowych, -środowisk do przetestowania, -celów biznesowych, -celów jakościowych, -harmonogramów testowania",
+      "Plan testów to dokument określający strategię i zakres testowania dla danego projektu lub produktu. Zawiera: 1.Wprowadzenie, 2.Cel testowania, 3.Zakres testowania, 4.Strategia testowa, 5.Kryteria akceptacji, 6.Przypadki testowe, 7.Harmonogram testów, 8.Zasoby, 9.Środowisko testowe, 10.Raportowanie i śledzenie błędów, 11.Zarządzanie ryzykiem, 12.Kryteria zakończenia testów.",
   },
   {
     id: 29,
     question: "29.Jakie są kategorię defektów?",
     answer:
-      "Krytyczny -> Awaria systemu i/lub brak możliwości uruchomienia pewnych części aplikacji. Aplikacja wyłącza się w czasie uruchomienia ważnego procesu biznesowego. Poważny -> Produkt niezgodny z wymaganiami lub tylko zaimplementowany jedynie w części. Średni -> Pomniejsze i czasami akceptowalne problemy. Utrudnia pracę, ale jej nie blokuje. Trywialny -> Przykłady: Literówki, niepoprawne kolory na ekranie.",
+      "1.Funkcjonalne, 2.Interfejsu użytkownika, 3.Wydajnościowe, 4.Zgodności, 5.Bezpieczeństwa, 6.Zawartości i Dane, 7.Kompatybilności, 8.Testowanie i Automatyzacja, 9.Dokumentacyjne, 10.Środowiskowe, 11.Procesowe",
   },
   {
     id: 30,
     question:
       "30.Wymień błąd któremu można podczepić priorytet niski a wpływ duży?",
-    answer: "??",
+    answer:
+      "1.Problem z Wyglądem Elementów Interfejsu, 2.Problemy z Kolorami i Stylami, 3.Niedopasowane Grafik",
   },
   {
     id: 31,
     question:
       "31.Wymień błąd któremu można podczepić priorytet wysoki a wpływ niski?",
-    answer: "??",
+    answer: "Niewłaściwie Sformatowany Komunikat w Logach",
   },
   {
     id: 32,
@@ -1130,7 +1131,8 @@ const QAGPT_FLASHCARDS = [
   {
     id: 33,
     question: "33.Który rodzaj testów jest najmniej kosztowny?",
-    answer: "",
+    answer:
+      "Testy jednostkowe: 1.Wczesna Detekcja Błędów, 2.Skoncentrowane na Małych Jednostkach, 3.Szybkość Wykonania 4.Automatyzacja, 5.Redukcja Zależności",
   },
   {
     id: 34,
@@ -1141,13 +1143,13 @@ const QAGPT_FLASHCARDS = [
     id: 35,
     question: "35.Czym zajmuje się tester oprogramowania?",
     answer:
-      "Rolą testera oprogramowania jest zweryfikowanie, czy stworzony program odpowiada wymaganiom postawionym przez osobę zamawiającą go.",
+      "1.	Tworzenie Przypadków Testowych, 2.Wykonywanie Testów, 3.Analiza Wyników Testów, 4.Debugowanie i Monitorowanie Błędów, 5.Tworzenie i Utrzymywanie Skryptów Testowych, 6.Uczestnictwo w Spotkaniach Zespołu,  7.Sprawdzanie Zgodności, 8.Raportowanie Postępów ",
   },
   {
     id: 36,
     question: "36.Jakie są główne cele testów?",
     answer:
-      "-dokonywanie oceny produktów pracy, takich jak: wymagania, historyjki użytkownika, projekt i kod; -sprawdzanie, czy zostały spełnione wszystkie wyspecyfikowane wymagania; -sprawdzanie, czy przedmiot testów jest kompletny i działa zgodnie z oczekiwaniami użytkowników i innych interesariuszy; -budowanie zaufania do poziomu jakości przedmiotu testów; -zapobieganie defektom; -wykrywanie defektów i awarii; -przestrzeganie wymagań wynikających z umów, przepisów prawa i norm/standardów i/lub -obniżanie poziomu ryzyka związanego z jakością oprogramowania (np. ryzyka wystąpienia niewykrytych wcześniej awarii podczas eksploatacji); -dostarczanie interesariuszom informacji niezbędnych do podejmowania świadomych decyzji",
+      "1.Zapewnienie Jakości Oprogramowania, 2.Wczesna Detekcja i Naprawa Błędów, 3.Zapewnienie Zgodności z Wymaganiami, 4.Poprawa Doświadczenia Użytkownika, 5.Zoptymalizowanie Wydajności i Efektywności, 6.Zarządzanie Ryzykiem, 7.Uzyskanie Akceptacji Klienta, 8.Zachowanie Zgodności z Normami i Standardami 9.Ułatwianie Utrzymania Kodu",
   },
   {
     id: 37,
@@ -1159,7 +1161,7 @@ const QAGPT_FLASHCARDS = [
     id: 38,
     question: "38.Co to jest testowanie Ad hoc?",
     answer:
-      "Testy przeprowadzane są bez tworzenia formalnego planu testu czy pisania przypadków testowych. Testy typu ad hoc pomagają planować zakres i czas trwania innych rodzajów testów, pomagają także testerom nauczyć się aplikacji przed rozpoczęciem zaplanowanych, innych rodzajów testów.",
+      "Testowanie ad hoc to metoda testowania oprogramowania, która polega na spontanicznym i niestrukturyzowanym podejściu do poszukiwania defektów. Testerzy ad hoc działają bez konkretnego planu testowego, scenariuszy czy specyfikacji, a zamiast tego korzystają z intuicji, doświadczenia i wiedzy branżowej, aby odkrywać potencjalne problemy w oprogramowaniu.",
   },
   {
     id: 39,
@@ -1232,7 +1234,7 @@ const QAGPT_FLASHCARDS = [
     id: 50,
     question: "50.Co to jest testowanie dynamiczne?",
     answer:
-      "testowanie modułu lub systemu na poziomie specyfikacji lub implementacji bez wykonywania tego oprogramowania, np. przeglądy lub analiza statyczna kodu. Czyli głównym założeniem jest testowanie bez uruchomienia aplikacji.",
+      "Testowanie dynamiczne to rodzaj testowania oprogramowania, które polega na ocenie działania i zachowania oprogramowania w trakcie jego wykonywania. W odróżnieniu od testowania statycznego, które analizuje artefakty, takie jak kod źródłowy czy dokumentacja, testowanie dynamiczne skupia się na aktywnym przeprowadzaniu testów i sprawdzaniu, jak oprogramowanie reaguje na różne sytuacje.",
   },
   {
     id: 51,
@@ -1251,19 +1253,19 @@ const QAGPT_FLASHCARDS = [
     id: 53,
     question: "53.Co to jest paradoks pestycydów?",
     answer:
-      "odnosi się do sytuacji, w której ten sam zestaw testów powtarzany wielokrotnie na oprogramowaniu przestaje wykrywać błędy.",
+      "oznacza, że im częściej używamy tych samych przypadków testowych, tym mniej prawdopodobne jest wykrycie nowych błędów.",
   },
   {
     id: 54,
     question: "54.Co to jest test pozytywny?",
     answer:
-      "test (w rozumieniu testerskim) zakończył się wynikiem „nie przeszedł”, czyli wykrył problem.",
+      "Test pozytywny to test, którego wynik wskazuje na to, że testowany element działa zgodnie z oczekiwaniami i spełnia określone kryteria.",
   },
   {
     id: 55,
     question: "55.Czym jest test negatywny?",
     answer:
-      "Testowanie, którego celem jest pokazanie, że oprogramowanie nie działa. Testowanie negatywne jest bardziej związane z postawą testerów, niż ze specyficznym podejściem czy techniką projektowania testów, np. testowanie z błędnymi wartościami wejściowymi lub wyjątkami.",
+      "Test negatywny to rodzaj testu, którego celem jest sprawdzenie, czy dany element oprogramowania, najczęściej funkcja lub moduł, poprawnie radzi sobie w sytuacjach nieprawidłowych lub z przypadkami, które przewidziane są jako błędne lub niepoprawne.",
   },
   {
     id: 56,
@@ -1282,7 +1284,7 @@ const QAGPT_FLASHCARDS = [
     id: 58,
     question: "58.Czym jest scenariusz testowy?",
     answer:
-      "Opisuje serię przypadków testowych, które składają się na pełne sprawdzenie danej funkcjonalności. Scenariusz może opisywać rożne sekwencje działań i różne dane wejściowe, aby uwzględnić różne warunki, w których system może działać.",
+      "Scenariusz testowy to szczegółowy opis kroków, warunków początkowych, danych wejściowych oraz oczekiwanych rezultatów dla konkretnego przypadku testowego. Podstawowe elementy scenariusza testowego: 1.Nazwa Scenariusza, 2.Opis Scenariusza, 3.Kroki Testowe, 4.Warunki Początkowe, 5.Dane Wejściowe, 6.Oczekiwane Rezultaty,  7.Warunki Końcowe, 8.Uwagi i Dodatkowe Informacje  ",
   },
   {
     id: 59,
@@ -1313,7 +1315,7 @@ const QAGPT_FLASHCARDS = [
     id: 63,
     question: "63.Czym są metodyki zwinne?",
     answer:
-      "Metodyki zwinne skupiają się na elastycznym podejściu i iteracyjnej realizacji projektu, zakładając, że nie wszystko można przewidzieć i zaplanować, a ważniejsze jest reagowanie na zmiany niż trzymanie się z góry ustalonego planu.",
+      "Metodyki zwinne to podejście do zarządzania projektem i tworzenia oprogramowania, które kładzie nacisk na elastyczność, współpracę zespołową, komunikację oraz dostarczanie wartości klientowi w krótkich, iteracyjnych cyklach. ",
   },
   {
     id: 64,
@@ -1330,14 +1332,14 @@ const QAGPT_FLASHCARDS = [
     id: 66,
     question: "66.Proszę omówić testy systemowe?",
     answer:
-      "Testowanie systemowe skupia się na ogólnym zachowaniu i możliwościach całego systemu lub produktu. Często obejmuje również kompleksowe testowanie funkcjonalne wszystkich zadań, jakie system ten może wykonywać, oraz testowanie niefunkcjonalne charakterystyk jakościowych.",
+      "Testy systemowe to rodzaj testów oprogramowania, które koncentrują się na sprawdzeniu kompletnego i zintegrowanego systemu pod kątem zgodności z określonymi wymaganiami.",
   },
   {
     id: 67,
     question:
       "67.Jakie defekty jesteśmy w stanie wykryć za pomocą testów integracyjnych?",
     answer:
-      "błędy w interfejsach oraz interakcjach między poszczególnymi modułami bądź systemami.",
+      "Testy integracyjne skupiają się na identyfikowaniu defektów związanych z interakcjami między różnymi komponentami lub modułami systemu. 1.Błędy Integracyjne, 2.Nieprawidłowe Przekazywanie Danych, 3.Błędy Komunikacyjne, 4.Niezgodność Interfejsów, 5.Błędy w Zarządzaniu Zasobami 6.Błędy w Komunikatach Między Procesami, 7.Problemy z Zgodnością Wersji Oprogramowania 8.Błędy Konfiguracji Systemu",
   },
   {
     id: 68,
@@ -1349,19 +1351,19 @@ const QAGPT_FLASHCARDS = [
     id: 69,
     question: "69.Jakie znasz podejścia szacowania testów?",
     answer:
-      "Istnieją dwa podejścia do szacowania pracochłonności testów: -podejście oparte na metrykach: szacowanie pracochłonności testów bazując na pomiarach minionych lub podobnych projektów lub bazujące na typowych wartościach -podejście oparte na ekspertach: szacowanie zadań przez ich przyszłych wykonawców lub przez ekspertów",
+      "1.Szacowanie Oparte na Doświadczeniu, 2.Szacowanie Komitetowe, 3.Szacowanie Analogiczne, 4.Szacowanie Przez Próbę i Błąd, 5.Szacowanie Punktów Funkcji (Function Points), 6.Szacowanie Zespołowe (Wideband Delphi), 7.Szacowanie Używające Metod Punktów Funkcji (COCOMO), 8.Szacowanie Historyczne ",
   },
   {
     id: 70,
     question: "70.Co to jest testowanie oprogramowania?",
     answer:
-      "proces weryfikacji zgodności działania aplikacji z wymaganiami funkcjonalnymi.",
+      "Testowanie oprogramowania to proces oceny i analizy oprogramowania w celu identyfikacji błędów, potwierdzenia jego zgodności z wymaganiami oraz zapewnienia, że spełnia oczekiwania użytkowników. Głównym celem testowania oprogramowania jest poprawa jakości produktu poprzez wykrywanie, raportowanie i naprawę defektów przed wdrożeniem.",
   },
   {
     id: 71,
     question: "71.Jakie są głównie zadania testera?",
     answer:
-      "rozwijanie infrastruktury testowej poprzez tworzenie, przeprowadzanie i utrzymywanie testów manualnych dla konkretnego oprogramowania. Testerzy manualni dokumentują przypadki testowe, analizują je, tworzą dokumentację techniczną i raportują błędy.",
+      "1.Analiza Wymagań, 2.Tworzenie Przypadków Testowych, 3.Przeprowadzanie Testów, 4.Raportowanie Błędów, 5.Automatyzacja Testów, 6.Testowanie Wydajności,  7.Testowanie Bezpieczeństwa, 8.Przeprowadzanie Testów Użyteczności, 9.Testowanie Zgodności, 10.Weryfikacja Dokumentacji, 11.Raportowanie Postępu Testów, 12.Współpraca z Innymi Zespołami",
   },
   {
     id: 72,
@@ -1373,7 +1375,7 @@ const QAGPT_FLASHCARDS = [
     question:
       "73.Jakie atrybuty jesteś w stanie przetestować za pomocą testów niefunkcjonalnych?",
     answer:
-      "wydajność, skalowalność, bezpieczeństwo, pielęgnowalność czy kompatybilność.",
+      "1.Wydajność, 2.Skalowalność, 3.Dostępność, 4.Bezpieczeństwo, 5.Reliability(stabilność i niezawodność), 6.Wydajność w przypadku awarii(Failover), 7.Wydajność w warunkach skrajnych, 8.Zużycie zasobów, 9.Kompatybilność, 10.Testy obciążeniowe, 11.Testy wydajnościowe, 12.Testy dotyczące wielkości danych, 13.Testy zgodności z przepisamy, 14.Testy czasu reakcji",
   },
   {
     id: 74,
@@ -1396,7 +1398,7 @@ const QAGPT_FLASHCARDS = [
     id: 77,
     question: "77.Co zawarłbyś w raporcie z testów?",
     answer:
-      "Raport o postępie testów -> status, stopień realizacji planów, ewentualne utrudnienia, plany na kolejne testy, jakość testowanego systemu Sumaryczny raport testów -> podsumowanie - przebieg testów, ewentualne odstepstwa od założonego wcześniej planu, końcowy status, zmierzona jakość systemu, pojawiające sie problemy, miary i ryzyka.",
+      "1.Informacje Wstępne, 2.Podsumowanie Postępu Testów, 3.Status Testów, 4.Diagramy Burndown, 5.Liczba i Rodzaj Błędów, 6.Priorytet Błędów, 7.Ocena Pokrycia Testów, 8.Wydajność i Wydajnośćowe Odkrycia, 9.Zestawienie Wydajności Testów, 10.Zestawienie Kompatybilności, 11.Rekomendacje i Uwagi, 12.Podsumowanie i Plan Dalszych Działań",
   },
   {
     id: 78,
@@ -1420,6 +1422,12 @@ const QAGPT_FLASHCARDS = [
     question: "81.Co może zawierać raport z testów",
     answer:
       "-id,tytuł,autor -cel -Nazwa i wersja systemu -> określenie obiektu testów -Kilka zdań ogólnego podsumowania -Odstępstwa od założonego planu i ich przyczyny -Wyniki testów i metryki -> planowane/wyknoane, zaliczone/niezaliczone/zablokowane, liczba defektów z priorytetami, dystrybucja defektów(gdzie i ile), lista otwartych defektów. -Podsumowanie aktywności-> czas wykonania, daty startu i końca, koszty,zasoby -Ocena kryteriów wejścia i wyjścia -Wnioski na przyszłość",
+  },
+  {
+    id: 82,
+    question: "82.Podstawowe aspekty testowania oprogramowanie",
+    answer:
+      "1.Wykrywanie Błędów (Defektów), 2.Potwierdzanie Zgodności z Wymaganiami, 3.Zapewnienie Jakości, 4.Zabezpieczanie Przed Ryzykiem, 5.Optymalizacja Wydajności, 6.Udoskonalanie Doświadczenia Użytkownika, 7.Zoptymalizowanie Kosztów Napraw, 8.Zapewnianie Zgodności Z Przepisami ",
   },
 ];
 
